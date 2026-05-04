@@ -5,24 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube</title>
+    <link rel="stylesheet" href="assets/estilos/styles.css">
 </head>
 
 <body>
     <header>
-        <!--menu-->
-        <button>
-            <img src="assets/image/menu-icon.png" alt="menu">
-        </button>
-        <!--youtube-->
-        <!--pesquisa-->
-        <form action="#" method="get">
-            <input type="text" name="busca-form" id="busca-form">
-            <button>
-                <img src="assets/image/icon-busca.png" alt="buscar">
-            </button>
-        </form>
-
-        <!--acount-->
+        <div class="header">
+            <!--menu-->
+            <div class="contain">
+                <button>
+                    <img src="assets/image/menu-icon.png" alt="menu" class="img-header img-menu">
+                </button>
+                <!--youtube/logo-->
+                <a href="index.html">
+                    <img src="assets/image/LOGO-JOAO-GABRIEL-BLACK.png" alt="pagina inicial" class="icone-logo">
+                </a>
+            </div>
+            <!--pesquisa-->
+            <div class="contain">
+                <form action="#" method="get" class="form-busca">
+                    <input type="text" name="busca-form" id="busca-form" class="barra-buscar" placeholder="Pesquisa">
+                    <button>
+                        <img src="assets/image/icon-busca.png" alt="buscar" class="img-header img-busca">
+                    </button>
+                </form>
+            </div>
+            <!--acount-->
+            <a href="#">
+                <img src="assets/image/IMG_20250222_153710.jpg" alt="account" class="img-acount">
+            </a>
+        </div>
     </header>
     <nav>
         <!--Recomendações de videos-->
