@@ -79,6 +79,7 @@
 /* MAIN */
 .conteudo{
     width: 953px;
+    display: flex;
 }
 .video-player{
     margin: 25px;
@@ -139,9 +140,31 @@
     margin: 10px 0 0 0;
     width: 850px;
 }
-.descricao h4{
-    
-}
 .descricao p {
     margin: 10px;
+}
+/*NAV*/
+.recomeded{
+    margin-top: 25px;
+    font-size: 12px;
+    max-width: 100vw;
+}
+.video-recomeded{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    max-width: 100vw;
+}
+.video-recomeded img{
+    width: 160px;
+    max-width: 200px;
+}
+.video-recomeded div{
+    height: 89px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
